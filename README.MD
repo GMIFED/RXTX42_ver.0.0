@@ -9,8 +9,9 @@ SDR Receiver/Transceiver module, based on AD9363 with AXT460324 P4S series Board
 - External clock output (U.FL);
 - Power supply: 3.3...5 V;
 - Board size: 50x75x9.5 mm;
+
 <p align="center">
-Images/Top_View.png  
+  <img src="Images/Top_View.png">  
 </p>
 
 *Board Top View*
