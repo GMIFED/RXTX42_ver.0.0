@@ -14,5 +14,5 @@ SDR Receiver/Transceiver module, based on AD9363 with AXT460324 P4S series Board
   <img src="Images/Top_View.png">  
 </p>
 <p align="center">
-*Board Top View*
+Board Top View
 </p>
