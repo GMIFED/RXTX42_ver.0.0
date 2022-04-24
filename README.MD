@@ -1,6 +1,6 @@
 # RXTX42_ver.0.0
 
-SDR Receiver/Transceiver module, based on AD9363 with AXT460324 P4S series Board-to-Board connector, and on-board clock generator and power management circuitry.
+SDR Receiver/Transceiver module, based on AD9363 with on-board clock generator and power management circuitry.
 
 **Specification**
 - 4 RX channel (edge SMA);
