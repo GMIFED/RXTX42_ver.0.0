@@ -1,0 +1,26 @@
+; Top Design: "Channel_Simulation_lib:RF_Channel:schematic"
+; Netlisted using Hierarchy Policy: "Standard"
+
+Options ResourceUsage=yes UseNutmegFormat=no EnableOptim=no TopDesignName="Channel_Simulation_lib:RF_Channel:schematic" DcopOutputNodeVoltages=yes DcopOutputPinCurrents=yes DcopOutputAllSweepPoints=no DcopOutputDcopType=0
+MLIN2:TL1  P1 N__0 Subst="MSub1" W=1 mm L=8 mm Wall1=1.0E+30 mil Wall2=1.0E+30 mil Mod=1 
+MSOBND:Bend1  N__0 N__2 Subst="MSub1" W=1 mm 
+model MSub1 MSUB H=.55 mm Er=4.15 Mur=1 Cond=1.0E+50 Hu=1e+33 mm T=.018 mm TanD=.015 Rough=0 mm DielectricLossModel=1 FreqForEpsrTanD=1.0 GHz LowFreqForTanD=1.0 kHz HighFreqForTanD=1.0 THz RoughnessModel=2 
+MLIN2:TL2  N__3 N__2 Subst="MSub1" W=1 mm L=3.5 mm Wall1=1.0E+30 mil Wall2=1.0E+30 mil Mod=1 
+MLIN2:TL3  N__4 P2 Subst="MSub1" W=1 mm L=6 mm Wall1=1.0E+30 mil Wall2=1.0E+30 mil Mod=1 
+MSOBND:Bend2  N__4 N__3 Subst="MSub1" W=1 mm 
+S_Param:SP1 CalcS=yes CalcY=no CalcZ=no GroupDelayAperture=1e-4 FreqConversion=no FreqConversionPort=1 StatusLevel=2 CalcNoise=no SortNoise=0 BandwidthForNoise=1.0 Hz DevOpPtLevel=0 \
+SweepVar="freq" SweepPlan="SP1_stim" OutputPlan="SP1_Output" 
+
+SweepPlan: SP1_stim Start=.1 GHz Stop=10.0 GHz Step=.001 GHz 
+
+OutputPlan:SP1_Output \
+      Type="Output" \
+      UseEquationNestLevel=yes \
+      EquationNestLevel=2 \
+      UseSavedEquationNestLevel=yes \
+      SavedEquationNestLevel=2
+
+#load "python","LinearCollapse"
+Component Module="LinearCollapse" Type="ModelExtractor" NetworkRepresentation=2
+Port:Term1  P1 0 Num=1 Z=50 Ohm Noise=yes 
+Port:Term2  P2 0 Num=2 Z=50 Ohm Noise=yes 

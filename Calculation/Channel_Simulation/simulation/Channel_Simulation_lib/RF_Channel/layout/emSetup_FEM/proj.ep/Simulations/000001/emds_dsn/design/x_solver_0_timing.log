@@ -1,0 +1,199 @@
+
+  1. setup                                          : etime=00:00:00.3    ctime=00:00:00.2    rss= 27.031 Mbyte     virtual= 16.836 Mbyte     
+     1. loading mesh                                : etime=00:00:00.1    ctime=00:00:00.1    rss= 26.105 Mbyte     virtual= 16.480 Mbyte     
+     2. setup of local problems for iwp             : etime=00:00:00.0    ctime=00:00:00.0    rss= 26.105 Mbyte     virtual= 16.480 Mbyte     
+     3. loading circuit components                  : etime=00:00:00.0    ctime=00:00:00.0    rss= 26.105 Mbyte     virtual= 16.480 Mbyte     
+        1. reading current sources from calcbridge  : etime=00:00:00.0    ctime=00:00:00.0    rss= 26.105 Mbyte     virtual= 16.480 Mbyte     
+        2. building current sources for waveguide ports: etime=00:00:00.0    ctime=00:00:00.0    rss= 26.105 Mbyte     virtual= 16.480 Mbyte     
+        3. connectivity check                       : etime=00:00:00.0    ctime=00:00:00.0    rss= 26.105 Mbyte     virtual= 16.480 Mbyte     
+           1. legacy FindImpedanceLinePathsForIWG [TO BE OBSOLETED]: etime=00:00:00.0    ctime=00:00:00.0    rss= 26.105 Mbyte     virtual= 16.480 Mbyte     
+              1. find impedance line paths          : etime=00:00:00.0    ctime=00:00:00.0    rss= 26.105 Mbyte     virtual= 16.480 Mbyte     
+     4. assigning unknowns                          : etime=00:00:00.0    ctime=00:00:00.0    rss= 26.105 Mbyte     virtual= 16.480 Mbyte     
+        1. LFenhance                                : etime=00:00:00.0    ctime=00:00:00.0    rss= 26.105 Mbyte     virtual= 16.480 Mbyte     
+     5. setup circuit components                    : etime=00:00:00.1    ctime=00:00:00.1    rss= 26.734 Mbyte     virtual= 16.633 Mbyte     
+        1. line paths + line integrals              : etime=00:00:00.1    ctime=00:00:00.1    rss= 26.688 Mbyte     virtual= 16.633 Mbyte     
+           1. node2cell connectivity                : etime=00:00:00.0    ctime=00:00:00.0    rss= 26.105 Mbyte     virtual= 16.480 Mbyte     
+           2. edge2cell connectivity                : etime=00:00:00.0    ctime=00:00:00.0    rss= 26.547 Mbyte     virtual= 16.633 Mbyte     
+        2. FindPortCalibrationInductances           : etime=00:00:00.0    ctime=00:00:00.0    rss= 26.734 Mbyte     virtual= 16.633 Mbyte     
+           1. setInductance                         : etime=00:00:00.0    ctime=00:00:00.0    rss= 26.734 Mbyte     virtual= 16.633 Mbyte     
+        3. iwp                                      : etime=00:00:00.0    ctime=00:00:00.0    rss= 26.734 Mbyte     virtual= 16.633 Mbyte     
+
+  2. symbolic matrix setup                          : etime=00:00:00.1    ctime=00:00:00.2    rss= 41.258 Mbyte     virtual= 31.590 Mbyte     
+
+  3. iwp                                            : etime=00:00:00.0    ctime=00:00:00.0    rss= 41.258 Mbyte     virtual= 31.590 Mbyte     
+
+  4. Frequency 10 GHz                               : etime=00:00:00.8    ctime=00:00:02.7    rss=135.367 Mbyte     virtual=129.438 Mbyte     
+     1. Frequency 10 GHz                            : etime=00:00:00.8    ctime=00:00:02.7    rss=134.738 Mbyte     virtual=129.379 Mbyte     
+        1. constructing matrix                      : etime=00:00:00.1    ctime=00:00:00.7    rss= 42.383 Mbyte     virtual= 32.434 Mbyte     
+           1. 1d                                    : etime=00:00:00.0    ctime=00:00:00.0    rss= 41.816 Mbyte     virtual= 32.434 Mbyte     
+           2. 3d                                    : etime=00:00:00.1    ctime=00:00:00.5    rss= 42.383 Mbyte     virtual= 32.434 Mbyte     
+           3. 2d                                    : etime=00:00:00.0    ctime=00:00:00.2    rss= 42.383 Mbyte     virtual= 32.434 Mbyte     
+        2. setup direct solver PARDISO (LU-factorization): etime=00:00:00.6    ctime=00:00:01.7    rss=132.313 Mbyte     virtual=126.555 Mbyte     
+        3. constructing excitation                  : etime=00:00:00.0    ctime=00:00:00.0    rss=132.965 Mbyte     virtual=127.293 Mbyte     
+        4. direct solve (backsubstitution)          : etime=00:00:00.0    ctime=00:00:00.1    rss=133.813 Mbyte     virtual=128.141 Mbyte     
+        5. error estimation                         : etime=00:00:00.0    ctime=00:00:00.0    rss=134.395 Mbyte     virtual=129.348 Mbyte     
+     2. writing circuit results                     : etime=00:00:00.0    ctime=00:00:00.0    rss=135.367 Mbyte     virtual=129.438 Mbyte     
+        1. simulated cti-file                       : etime=00:00:00.0    ctime=00:00:00.0    rss=134.848 Mbyte     virtual=129.438 Mbyte     
+        2. simulated dataset for ADS                : etime=00:00:00.0    ctime=00:00:00.0    rss=135.164 Mbyte     virtual=129.438 Mbyte     
+        3. simulated cti-file for ADS               : etime=00:00:00.0    ctime=00:00:00.0    rss=135.164 Mbyte     virtual=129.438 Mbyte     
+        4. RLCK dataset                             : etime=00:00:00.0    ctime=00:00:00.0    rss=135.176 Mbyte     virtual=129.438 Mbyte     
+
+  1. setup                                          : etime=00:00:00.2    ctime=00:00:00.2    rss= 27.621 Mbyte     virtual= 17.457 Mbyte     
+     1. loading mesh                                : etime=00:00:00.1    ctime=00:00:00.1    rss= 26.820 Mbyte     virtual= 17.250 Mbyte     
+     2. setup of local problems for iwp             : etime=00:00:00.0    ctime=00:00:00.0    rss= 26.820 Mbyte     virtual= 17.250 Mbyte     
+     3. loading circuit components                  : etime=00:00:00.0    ctime=00:00:00.0    rss= 26.820 Mbyte     virtual= 17.250 Mbyte     
+        1. reading current sources from calcbridge  : etime=00:00:00.0    ctime=00:00:00.0    rss= 26.820 Mbyte     virtual= 17.250 Mbyte     
+        2. building current sources for waveguide ports: etime=00:00:00.0    ctime=00:00:00.0    rss= 26.820 Mbyte     virtual= 17.250 Mbyte     
+        3. connectivity check                       : etime=00:00:00.0    ctime=00:00:00.0    rss= 26.820 Mbyte     virtual= 17.250 Mbyte     
+           1. legacy FindImpedanceLinePathsForIWG [TO BE OBSOLETED]: etime=00:00:00.0    ctime=00:00:00.0    rss= 26.820 Mbyte     virtual= 17.250 Mbyte     
+              1. find impedance line paths          : etime=00:00:00.0    ctime=00:00:00.0    rss= 26.820 Mbyte     virtual= 17.250 Mbyte     
+     4. assigning unknowns                          : etime=00:00:00.0    ctime=00:00:00.0    rss= 26.820 Mbyte     virtual= 17.250 Mbyte     
+        1. LFenhance                                : etime=00:00:00.0    ctime=00:00:00.0    rss= 26.820 Mbyte     virtual= 17.250 Mbyte     
+     5. setup circuit components                    : etime=00:00:00.1    ctime=00:00:00.1    rss= 27.348 Mbyte     virtual= 17.254 Mbyte     
+        1. line paths + line integrals              : etime=00:00:00.1    ctime=00:00:00.1    rss= 27.324 Mbyte     virtual= 17.254 Mbyte     
+           1. node2cell connectivity                : etime=00:00:00.0    ctime=00:00:00.0    rss= 26.820 Mbyte     virtual= 17.250 Mbyte     
+           2. edge2cell connectivity                : etime=00:00:00.0    ctime=00:00:00.0    rss= 27.156 Mbyte     virtual= 17.254 Mbyte     
+        2. FindPortCalibrationInductances           : etime=00:00:00.0    ctime=00:00:00.0    rss= 27.348 Mbyte     virtual= 17.254 Mbyte     
+           1. setInductance                         : etime=00:00:00.0    ctime=00:00:00.0    rss= 27.348 Mbyte     virtual= 17.254 Mbyte     
+        3. iwp                                      : etime=00:00:00.0    ctime=00:00:00.0    rss= 27.348 Mbyte     virtual= 17.254 Mbyte     
+
+  2. symbolic matrix setup                          : etime=00:00:00.1    ctime=00:00:00.1    rss= 44.648 Mbyte     virtual= 36.074 Mbyte     
+
+  3. iwp                                            : etime=00:00:00.0    ctime=00:00:00.0    rss= 44.652 Mbyte     virtual= 36.074 Mbyte     
+
+  4. Frequency 10 GHz                               : etime=00:00:00.9    ctime=00:00:03.3    rss=154.547 Mbyte     virtual=149.785 Mbyte     
+     1. Frequency 10 GHz                            : etime=00:00:00.9    ctime=00:00:03.3    rss=154.395 Mbyte     virtual=149.703 Mbyte     
+        1. constructing matrix                      : etime=00:00:00.2    ctime=00:00:00.9    rss= 45.676 Mbyte     virtual= 36.945 Mbyte     
+           1. 1d                                    : etime=00:00:00.0    ctime=00:00:00.0    rss= 45.676 Mbyte     virtual= 36.945 Mbyte     
+           2. 3d                                    : etime=00:00:00.1    ctime=00:00:00.7    rss= 45.676 Mbyte     virtual= 36.945 Mbyte     
+           3. 2d                                    : etime=00:00:00.1    ctime=00:00:00.2    rss= 45.676 Mbyte     virtual= 36.945 Mbyte     
+        2. setup direct solver PARDISO (LU-factorization): etime=00:00:00.6    ctime=00:00:02.0    rss=151.605 Mbyte     virtual=146.195 Mbyte     
+        3. constructing excitation                  : etime=00:00:00.0    ctime=00:00:00.0    rss=152.375 Mbyte     virtual=146.965 Mbyte     
+        4. direct solve (backsubstitution)          : etime=00:00:00.0    ctime=00:00:00.1    rss=153.344 Mbyte     virtual=147.984 Mbyte     
+        5. error estimation                         : etime=00:00:00.0    ctime=00:00:00.1    rss=153.977 Mbyte     virtual=149.465 Mbyte     
+     2. writing circuit results                     : etime=00:00:00.0    ctime=00:00:00.0    rss=154.547 Mbyte     virtual=149.785 Mbyte     
+        1. simulated cti-file                       : etime=00:00:00.0    ctime=00:00:00.0    rss=154.547 Mbyte     virtual=149.785 Mbyte     
+        2. simulated dataset for ADS                : etime=00:00:00.0    ctime=00:00:00.0    rss=154.547 Mbyte     virtual=149.785 Mbyte     
+        3. simulated cti-file for ADS               : etime=00:00:00.0    ctime=00:00:00.0    rss=154.547 Mbyte     virtual=149.785 Mbyte     
+        4. RLCK dataset                             : etime=00:00:00.0    ctime=00:00:00.0    rss=154.547 Mbyte     virtual=149.785 Mbyte     
+
+  1. setup                                          : etime=00:00:00.2    ctime=00:00:00.2    rss= 28.855 Mbyte     virtual= 18.508 Mbyte     
+     1. loading mesh                                : etime=00:00:00.1    ctime=00:00:00.1    rss= 27.641 Mbyte     virtual= 18.270 Mbyte     
+     2. setup of local problems for iwp             : etime=00:00:00.0    ctime=00:00:00.0    rss= 27.641 Mbyte     virtual= 18.270 Mbyte     
+     3. loading circuit components                  : etime=00:00:00.0    ctime=00:00:00.0    rss= 27.641 Mbyte     virtual= 18.270 Mbyte     
+        1. reading current sources from calcbridge  : etime=00:00:00.0    ctime=00:00:00.0    rss= 27.641 Mbyte     virtual= 18.270 Mbyte     
+        2. building current sources for waveguide ports: etime=00:00:00.0    ctime=00:00:00.0    rss= 27.641 Mbyte     virtual= 18.270 Mbyte     
+        3. connectivity check                       : etime=00:00:00.0    ctime=00:00:00.0    rss= 27.641 Mbyte     virtual= 18.270 Mbyte     
+           1. legacy FindImpedanceLinePathsForIWG [TO BE OBSOLETED]: etime=00:00:00.0    ctime=00:00:00.0    rss= 27.641 Mbyte     virtual= 18.270 Mbyte     
+              1. find impedance line paths          : etime=00:00:00.0    ctime=00:00:00.0    rss= 27.641 Mbyte     virtual= 18.270 Mbyte     
+     4. assigning unknowns                          : etime=00:00:00.0    ctime=00:00:00.0    rss= 27.641 Mbyte     virtual= 18.270 Mbyte     
+        1. LFenhance                                : etime=00:00:00.0    ctime=00:00:00.0    rss= 27.641 Mbyte     virtual= 18.270 Mbyte     
+     5. setup circuit components                    : etime=00:00:00.1    ctime=00:00:00.1    rss= 28.344 Mbyte     virtual= 18.301 Mbyte     
+        1. line paths + line integrals              : etime=00:00:00.1    ctime=00:00:00.1    rss= 28.320 Mbyte     virtual= 18.301 Mbyte     
+           1. node2cell connectivity                : etime=00:00:00.0    ctime=00:00:00.0    rss= 27.641 Mbyte     virtual= 18.270 Mbyte     
+           2. edge2cell connectivity                : etime=00:00:00.0    ctime=00:00:00.0    rss= 28.160 Mbyte     virtual= 18.293 Mbyte     
+        2. FindPortCalibrationInductances           : etime=00:00:00.0    ctime=00:00:00.0    rss= 28.344 Mbyte     virtual= 18.301 Mbyte     
+           1. setInductance                         : etime=00:00:00.0    ctime=00:00:00.0    rss= 28.344 Mbyte     virtual= 18.301 Mbyte     
+        3. iwp                                      : etime=00:00:00.0    ctime=00:00:00.0    rss= 28.344 Mbyte     virtual= 18.301 Mbyte     
+
+  2. symbolic matrix setup                          : etime=00:00:00.1    ctime=00:00:00.2    rss= 47.813 Mbyte     virtual= 39.164 Mbyte     
+
+  3. iwp                                            : etime=00:00:00.0    ctime=00:00:00.0    rss= 47.813 Mbyte     virtual= 39.164 Mbyte     
+
+  4. Frequency 10 GHz                               : etime=00:00:01.1    ctime=00:00:03.8    rss=188.047 Mbyte     virtual=183.809 Mbyte     
+     1. Frequency 10 GHz                            : etime=00:00:01.1    ctime=00:00:03.8    rss=187.309 Mbyte     virtual=183.684 Mbyte     
+        1. constructing matrix                      : etime=00:00:00.2    ctime=00:00:01.1    rss= 48.586 Mbyte     virtual= 40.230 Mbyte     
+           1. 1d                                    : etime=00:00:00.0    ctime=00:00:00.0    rss= 48.586 Mbyte     virtual= 40.230 Mbyte     
+           2. 3d                                    : etime=00:00:00.1    ctime=00:00:00.9    rss= 48.586 Mbyte     virtual= 40.230 Mbyte     
+           3. 2d                                    : etime=00:00:00.1    ctime=00:00:00.2    rss= 48.586 Mbyte     virtual= 40.230 Mbyte     
+        2. setup direct solver PARDISO (LU-factorization): etime=00:00:00.8    ctime=00:00:02.4    rss=184.270 Mbyte     virtual=180.031 Mbyte     
+        3. constructing excitation                  : etime=00:00:00.0    ctime=00:00:00.0    rss=185.168 Mbyte     virtual=180.941 Mbyte     
+        4. direct solve (backsubstitution)          : etime=00:00:00.0    ctime=00:00:00.1    rss=186.266 Mbyte     virtual=181.844 Mbyte     
+        5. error estimation                         : etime=00:00:00.0    ctime=00:00:00.1    rss=186.984 Mbyte     virtual=183.293 Mbyte     
+     2. writing circuit results                     : etime=00:00:00.0    ctime=00:00:00.0    rss=188.047 Mbyte     virtual=183.809 Mbyte     
+        1. simulated cti-file                       : etime=00:00:00.0    ctime=00:00:00.0    rss=187.449 Mbyte     virtual=183.699 Mbyte     
+        2. simulated dataset for ADS                : etime=00:00:00.0    ctime=00:00:00.0    rss=187.832 Mbyte     virtual=183.809 Mbyte     
+        3. simulated cti-file for ADS               : etime=00:00:00.0    ctime=00:00:00.0    rss=187.844 Mbyte     virtual=183.809 Mbyte     
+        4. RLCK dataset                             : etime=00:00:00.0    ctime=00:00:00.0    rss=187.855 Mbyte     virtual=183.809 Mbyte     
+
+  1. setup                                          : etime=00:00:00.2    ctime=00:00:00.2    rss= 29.855 Mbyte     virtual= 19.504 Mbyte     
+     1. loading mesh                                : etime=00:00:00.1    ctime=00:00:00.1    rss= 28.859 Mbyte     virtual= 19.172 Mbyte     
+     2. setup of local problems for iwp             : etime=00:00:00.0    ctime=00:00:00.0    rss= 28.859 Mbyte     virtual= 19.172 Mbyte     
+     3. loading circuit components                  : etime=00:00:00.0    ctime=00:00:00.0    rss= 28.859 Mbyte     virtual= 19.172 Mbyte     
+        1. reading current sources from calcbridge  : etime=00:00:00.0    ctime=00:00:00.0    rss= 28.859 Mbyte     virtual= 19.172 Mbyte     
+        2. building current sources for waveguide ports: etime=00:00:00.0    ctime=00:00:00.0    rss= 28.859 Mbyte     virtual= 19.172 Mbyte     
+        3. connectivity check                       : etime=00:00:00.0    ctime=00:00:00.0    rss= 28.859 Mbyte     virtual= 19.172 Mbyte     
+           1. legacy FindImpedanceLinePathsForIWG [TO BE OBSOLETED]: etime=00:00:00.0    ctime=00:00:00.0    rss= 28.859 Mbyte     virtual= 19.172 Mbyte     
+              1. find impedance line paths          : etime=00:00:00.0    ctime=00:00:00.0    rss= 28.859 Mbyte     virtual= 19.172 Mbyte     
+     4. assigning unknowns                          : etime=00:00:00.0    ctime=00:00:00.0    rss= 28.859 Mbyte     virtual= 19.172 Mbyte     
+        1. LFenhance                                : etime=00:00:00.0    ctime=00:00:00.0    rss= 28.859 Mbyte     virtual= 19.172 Mbyte     
+     5. setup circuit components                    : etime=00:00:00.1    ctime=00:00:00.1    rss= 29.395 Mbyte     virtual= 19.301 Mbyte     
+        1. line paths + line integrals              : etime=00:00:00.1    ctime=00:00:00.1    rss= 29.340 Mbyte     virtual= 19.301 Mbyte     
+           1. node2cell connectivity                : etime=00:00:00.0    ctime=00:00:00.0    rss= 28.859 Mbyte     virtual= 19.172 Mbyte     
+           2. edge2cell connectivity                : etime=00:00:00.0    ctime=00:00:00.0    rss= 29.207 Mbyte     virtual= 19.277 Mbyte     
+        2. FindPortCalibrationInductances           : etime=00:00:00.0    ctime=00:00:00.0    rss= 29.395 Mbyte     virtual= 19.301 Mbyte     
+           1. setInductance                         : etime=00:00:00.0    ctime=00:00:00.0    rss= 29.395 Mbyte     virtual= 19.301 Mbyte     
+        3. iwp                                      : etime=00:00:00.0    ctime=00:00:00.0    rss= 29.395 Mbyte     virtual= 19.301 Mbyte     
+
+  2. symbolic matrix setup                          : etime=00:00:00.1    ctime=00:00:00.2    rss= 52.293 Mbyte     virtual= 41.848 Mbyte     
+
+  3. iwp                                            : etime=00:00:00.0    ctime=00:00:00.0    rss= 52.293 Mbyte     virtual= 41.848 Mbyte     
+
+  4. Frequency 10 GHz                               : etime=00:00:01.1    ctime=00:00:04.1    rss=214.273 Mbyte     virtual=210.852 Mbyte     
+     1. Frequency 10 GHz                            : etime=00:00:01.1    ctime=00:00:04.1    rss=213.543 Mbyte     virtual=210.719 Mbyte     
+        1. constructing matrix                      : etime=00:00:00.2    ctime=00:00:01.1    rss= 52.895 Mbyte     virtual= 42.746 Mbyte     
+           1. 1d                                    : etime=00:00:00.0    ctime=00:00:00.0    rss= 52.766 Mbyte     virtual= 42.465 Mbyte     
+           2. 3d                                    : etime=00:00:00.2    ctime=00:00:01.0    rss= 52.895 Mbyte     virtual= 42.746 Mbyte     
+           3. 2d                                    : etime=00:00:00.1    ctime=00:00:00.2    rss= 52.895 Mbyte     virtual= 42.746 Mbyte     
+        2. setup direct solver PARDISO (LU-factorization): etime=00:00:00.8    ctime=00:00:02.7    rss=210.102 Mbyte     virtual=206.863 Mbyte     
+        3. constructing excitation                  : etime=00:00:00.0    ctime=00:00:00.0    rss=211.168 Mbyte     virtual=207.926 Mbyte     
+        4. direct solve (backsubstitution)          : etime=00:00:00.0    ctime=00:00:00.0    rss=212.430 Mbyte     virtual=209.016 Mbyte     
+        5. error estimation                         : etime=00:00:00.0    ctime=00:00:00.1    rss=213.203 Mbyte     virtual=210.383 Mbyte     
+     2. writing circuit results                     : etime=00:00:00.0    ctime=00:00:00.0    rss=214.273 Mbyte     virtual=210.852 Mbyte     
+        1. simulated cti-file                       : etime=00:00:00.0    ctime=00:00:00.0    rss=213.688 Mbyte     virtual=210.789 Mbyte     
+        2. simulated dataset for ADS                : etime=00:00:00.0    ctime=00:00:00.0    rss=214.063 Mbyte     virtual=210.852 Mbyte     
+        3. simulated cti-file for ADS               : etime=00:00:00.0    ctime=00:00:00.0    rss=214.070 Mbyte     virtual=210.852 Mbyte     
+        4. RLCK dataset                             : etime=00:00:00.0    ctime=00:00:00.0    rss=214.082 Mbyte     virtual=210.852 Mbyte     
+
+  1. setup                                          : etime=00:00:00.3    ctime=00:00:00.2    rss= 31.133 Mbyte     virtual= 20.887 Mbyte     
+     1. loading mesh                                : etime=00:00:00.1    ctime=00:00:00.1    rss= 30.262 Mbyte     virtual= 20.887 Mbyte     
+     2. setup of local problems for iwp             : etime=00:00:00.0    ctime=00:00:00.0    rss= 30.262 Mbyte     virtual= 20.887 Mbyte     
+     3. loading circuit components                  : etime=00:00:00.0    ctime=00:00:00.0    rss= 30.262 Mbyte     virtual= 20.887 Mbyte     
+        1. reading current sources from calcbridge  : etime=00:00:00.0    ctime=00:00:00.0    rss= 30.262 Mbyte     virtual= 20.887 Mbyte     
+        2. building current sources for waveguide ports: etime=00:00:00.0    ctime=00:00:00.0    rss= 30.262 Mbyte     virtual= 20.887 Mbyte     
+        3. connectivity check                       : etime=00:00:00.0    ctime=00:00:00.0    rss= 30.262 Mbyte     virtual= 20.887 Mbyte     
+           1. legacy FindImpedanceLinePathsForIWG [TO BE OBSOLETED]: etime=00:00:00.0    ctime=00:00:00.0    rss= 30.262 Mbyte     virtual= 20.887 Mbyte     
+              1. find impedance line paths          : etime=00:00:00.0    ctime=00:00:00.0    rss= 30.262 Mbyte     virtual= 20.887 Mbyte     
+     4. assigning unknowns                          : etime=00:00:00.0    ctime=00:00:00.0    rss= 30.262 Mbyte     virtual= 20.887 Mbyte     
+        1. LFenhance                                : etime=00:00:00.0    ctime=00:00:00.0    rss= 30.262 Mbyte     virtual= 20.887 Mbyte     
+     5. setup circuit components                    : etime=00:00:00.1    ctime=00:00:00.1    rss= 30.668 Mbyte     virtual= 20.887 Mbyte     
+        1. line paths + line integrals              : etime=00:00:00.1    ctime=00:00:00.1    rss= 30.645 Mbyte     virtual= 20.887 Mbyte     
+           1. node2cell connectivity                : etime=00:00:00.0    ctime=00:00:00.0    rss= 30.262 Mbyte     virtual= 20.887 Mbyte     
+           2. edge2cell connectivity                : etime=00:00:00.0    ctime=00:00:00.0    rss= 30.473 Mbyte     virtual= 20.887 Mbyte     
+        2. FindPortCalibrationInductances           : etime=00:00:00.0    ctime=00:00:00.0    rss= 30.668 Mbyte     virtual= 20.887 Mbyte     
+           1. setInductance                         : etime=00:00:00.0    ctime=00:00:00.0    rss= 30.668 Mbyte     virtual= 20.887 Mbyte     
+        3. iwp                                      : etime=00:00:00.0    ctime=00:00:00.0    rss= 30.668 Mbyte     virtual= 20.887 Mbyte     
+
+  2. symbolic matrix setup                          : etime=00:00:00.1    ctime=00:00:00.2    rss= 57.836 Mbyte     virtual= 48.730 Mbyte     
+
+  3. iwp                                            : etime=00:00:00.0    ctime=00:00:00.0    rss= 57.836 Mbyte     virtual= 48.730 Mbyte     
+
+  4. Frequency 10 GHz                               : etime=00:00:01.5    ctime=00:00:05.5    rss=253.551 Mbyte     virtual=250.887 Mbyte     
+     1. Frequency 10 GHz                            : etime=00:00:01.5    ctime=00:00:05.4    rss=252.887 Mbyte     virtual=250.820 Mbyte     
+        1. constructing matrix                      : etime=00:00:00.3    ctime=00:00:01.4    rss= 58.488 Mbyte     virtual= 51.031 Mbyte     
+           1. 1d                                    : etime=00:00:00.0    ctime=00:00:00.0    rss= 58.488 Mbyte     virtual= 50.059 Mbyte     
+           2. 3d                                    : etime=00:00:00.2    ctime=00:00:01.2    rss= 58.488 Mbyte     virtual= 51.031 Mbyte     
+           3. 2d                                    : etime=00:00:00.1    ctime=00:00:00.3    rss= 58.488 Mbyte     virtual= 51.031 Mbyte     
+        2. setup direct solver PARDISO (LU-factorization): etime=00:00:01.1    ctime=00:00:03.5    rss=249.000 Mbyte     virtual=246.297 Mbyte     
+        3. constructing excitation                  : etime=00:00:00.0    ctime=00:00:00.0    rss=250.254 Mbyte     virtual=247.551 Mbyte     
+        4. direct solve (backsubstitution)          : etime=00:00:00.1    ctime=00:00:00.2    rss=251.703 Mbyte     virtual=248.805 Mbyte     
+        5. error estimation                         : etime=00:00:00.0    ctime=00:00:00.1    rss=252.566 Mbyte     virtual=250.508 Mbyte     
+     2. writing circuit results                     : etime=00:00:00.0    ctime=00:00:00.0    rss=253.551 Mbyte     virtual=250.887 Mbyte     
+        1. simulated cti-file                       : etime=00:00:00.0    ctime=00:00:00.0    rss=253.020 Mbyte     virtual=250.883 Mbyte     
+        2. simulated dataset for ADS                : etime=00:00:00.0    ctime=00:00:00.0    rss=253.348 Mbyte     virtual=250.887 Mbyte     
+        3. simulated cti-file for ADS               : etime=00:00:00.0    ctime=00:00:00.0    rss=253.348 Mbyte     virtual=250.887 Mbyte     
+        4. RLCK dataset                             : etime=00:00:00.0    ctime=00:00:00.0    rss=253.359 Mbyte     virtual=250.887 Mbyte     
+
+  1. AFS                                            : etime=00:00:11.7    ctime=00:00:00.1    rss= 24.207 Mbyte     virtual= 13.805 Mbyte     
+
+  2. writing sio file                               : etime=00:00:00.0    ctime=00:00:00.0    rss= 24.207 Mbyte     virtual= 13.805 Mbyte     

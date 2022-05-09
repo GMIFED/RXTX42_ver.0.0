@@ -1,0 +1,17 @@
+<!DOCTYPE Substrate>
+<SubstrateModel>
+    <stack PURPOSE_TREATMENT="USE_ALL_EXCEPT_SPECIFIED" BAL_TYPE="NONE" BAL_NUM="0" SPECIFIED_PURPOSES="">
+        <material materialname="AIR" BAL_TYPE="INHERIT" BAL_NUM="0"/>
+        <interface materialname="Copper" groundplane="1" thick="0.018" BAL_TYPE="NONE" BAL_NUM="0" thickunit="millimeter"/>
+        <material materialname="FR4_RF" thick=".55" BAL_TYPE="INHERIT" BAL_NUM="0" thickunit="millimeter"/>
+        <interface materialname="" thick="" BAL_TYPE="INHERIT" BAL_NUM="0" thickunit="micron"/>
+        <material materialname="AIR" BAL_TYPE="INHERIT" BAL_NUM="0"/>
+    </stack>
+    <layers>
+        <layer index="1" layer="2" materialname="Copper" negative="0" subtype="0" thick="45" toprough="" angle="90" processRole="1" sheet="0" bottomrough="" precedence="0" expand="1" thickunit="micron" pinsOnly="0"/>
+    </layers>
+    <vias>
+        <via layer="25" materialname="Copper" platingdielectricmaterial="" subtype="0" index2="1" platingthicknessunit="micron" rough="" processRole="4" platingenabled="0" precedence="0" platingthickness="" index1="0"/>
+    </vias>
+    <substrates/>
+</SubstrateModel>

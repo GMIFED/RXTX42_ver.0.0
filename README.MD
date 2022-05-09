@@ -11,8 +11,8 @@ SDR Receiver/Transceiver module, based on AD9363 with on-board clock generator a
 - Board size: 50x75x9.5 mm;
 
 <p align="center">
-  <img src="Images/Top_View.png">  
+  <img src="Images/Top_Bottom_View.png">  
 </p>
 <p align="center">
-Board Top View
+Board View
 </p>

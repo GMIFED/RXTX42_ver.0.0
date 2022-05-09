@@ -1,0 +1,11 @@
+
+hpeesofsim (*) 530.shp Aug 11 2020, MINT version 5
+    (64-bit windows built: Wed Aug 12, 2020 02:42:05 +0000)
+
+
+SP SP1[1] <Channel_Simulation_lib:RF_Channel:schematic>   freq=(100 MHz->10 GHz)
+
+
+Resource usage:
+  Total stopwatch time     =     0.90 seconds.
+

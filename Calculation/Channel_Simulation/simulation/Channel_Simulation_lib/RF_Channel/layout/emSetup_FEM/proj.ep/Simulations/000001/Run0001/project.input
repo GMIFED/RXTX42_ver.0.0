@@ -1,0 +1,151 @@
+Version 9
+begin_<FEMProject> 
+begin_<Units> 
+begin_<Display> 
+Name mm
+Conversion 1000
+end_<Display>
+begin_<Modeling> 
+Name mm
+Conversion 1000
+end_<Modeling>
+end_<Units>
+begin_<RunParameters> 
+begin_<OuterBoundaries> 
+LowerX ORBC_CPML
+UpperX ORBC_CPML
+LowerY ORBC_CPML
+UpperY ORBC_CPML
+LowerZ ORBC_PEC
+UpperZ ORBC_CPML
+NumberOfPMLLayers 7
+end_<OuterBoundaries>
+begin_<AmbientConditions> 
+begin_<BackgroundMedium> 
+Temperature 298.14999389648438
+end_<BackgroundMedium>
+begin_<Top> 
+HeatTransferCoefficient 10
+end_<Top>
+begin_<Bottom> 
+HeatTransferCoefficient 2.5
+end_<Bottom>
+end_<AmbientConditions>
+begin_<ComponentsPorts> 
+PortType 1
+begin_<FeedData> 
+ComponentName P1
+Removable False
+begin_<ImpedanceLine> 
+LineType Sheet
+begin_<CornerPoint> 
+X 0
+Y -0.00050000000000000001
+Z 0
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0
+Y 0.00050000000000000001
+Z 0
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0
+Y 0.00050000000000000001
+Z 0.00052249999999999996
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0
+Y -0.00050000000000000001
+Z 0.00052249999999999996
+end_<CornerPoint>
+end_<ImpedanceLine>
+XLocation 1
+YLocation 1
+ZLocation 1
+CellEdgeDirection 0
+IsPort
+FileName CircuitComponent_P1_0.vc
+Source 1
+Polarity 1
+Resistance 50
+Inductance 0
+Capacitance 0
+Amplitude 1
+Phase 0
+Delay -2147483648
+Type 2
+IsActive 
+WaveformIndex 0
+TermType InputOutput
+Calibration RemoveSelfRemoveMutual
+end_<FeedData>
+begin_<FeedData> 
+ComponentName P2
+Removable False
+begin_<ImpedanceLine> 
+LineType Sheet
+begin_<CornerPoint> 
+X 0.014
+Y -0.00050000000000000001
+Z 0
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.014
+Y 0.00050000000000000001
+Z 0
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.014
+Y 0.00050000000000000001
+Z 0.00052249999999999996
+end_<CornerPoint>
+begin_<CornerPoint> 
+X 0.014
+Y -0.00050000000000000001
+Z 0.00052249999999999996
+end_<CornerPoint>
+end_<ImpedanceLine>
+XLocation 1
+YLocation 1
+ZLocation 1
+CellEdgeDirection 0
+IsPort
+FileName CircuitComponent_P2_1.vc
+Source 1
+Polarity 1
+Resistance 50
+Inductance 0
+Capacitance 0
+Amplitude 1
+Phase 0
+Delay -2147483648
+Type 2
+TermType InputOutput
+Calibration RemoveSelfRemoveMutual
+end_<FeedData>
+end_<ComponentsPorts>
+begin_<WaveGuidePorts> 
+end_<WaveGuidePorts>
+begin_<TerminationCriteria> 
+MaximumTimeSteps 50000
+MaximumWallClockSeconds 0
+ConvergenceEnabled
+Threshhold -30
+SamplingInterval 100
+WindowSize 2
+MinimumTimeSteps 0
+FlatLineDetectionEnabled
+MEDIUM_DENSITY
+begin_<TdAfsTerminationCriteria> 
+StartFrequency 1000000000
+StopFrequency 10000000000
+NumberOfFrequencyPoints 1000
+ENERGY
+INTERPOLATION
+NumberOfConsecutivePasses 1
+end_<TdAfsTerminationCriteria>
+end_<TerminationCriteria>
+end_<RunParameters>
+begin_<RequestResults> 
+end_<RequestResults>
+end_<FEMProject>

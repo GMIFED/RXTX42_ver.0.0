@@ -1,0 +1,70 @@
+<!DOCTYPE SimulationData>
+<SimulationData>
+  <SimulationData TotalScatteredFieldInterfaces="NoInterfaces" ExcitationType="DiscreteSources" UseTotalScatteredFieldFormulation="false" ComputeDissipatedPower="false" sname="Simulation" Generation="1">
+    <BoundaryConditions subjectID="1" ptrID="0">
+      <BoundaryConditions YUpperBoundaryType="Absorbing" ZUpperBoundaryType="Absorbing" AbsorptionType="PML" ZLowerBoundaryType="PEC" XUpperBoundaryType="Absorbing" XLowerBoundaryType="Absorbing" YLowerBoundaryType="Absorbing">
+        <NumPMLLayers subjectID="3" ptrID="2">
+          <Expression>
+            <Formula type="Int" value="7" typeid="2"/>
+          </Expression>
+        </NumPMLLayers>
+        <UseHybridFemMom value="false"/>
+        <HybridFemMomType>Volakis_Symm</HybridFemMomType>
+        <WrittenWith RevisionID="207" Version="EMPro 390.000 (64-bit)" BuildString="AAAAi3icJYq9CsJAEAb7PMUHNgrusV5+L6VgKVgI1lmTkIvGlfMsfHsPhSkGZs6TfyFxOJ6CIndsmBnrqiDxcWOybP/294gx6AIeCnG59FJDRwzLMyhJyj1ZtkxcETd0nfxNg48d9IFOZrpYyAe/D13Ef22Iy6TtzrWl22JluTZfGZgnDQ=="/>
+        <SelectedType value="3145775"/>
+      </BoundaryConditions>
+    </BoundaryConditions>
+    <ParameterValues>
+      <ParameterList/>
+      <ParameterList/>
+    </ParameterValues>
+    <ActivePorts>
+      <PortList>
+        <Port Name="P1" Number="1"/>
+      </PortList>
+      <PortList>
+        <Port Name="P2" Number="2"/>
+      </PortList>
+    </ActivePorts>
+    <SteadyStateFrequencySets/>
+    <FieldStorageFrequencySets/>
+    <Sinusoidal Compressed="false" Count="2" DataFormat="ASCII">0 0</Sinusoidal>
+    <StaticVoltagePointSets>
+      <StaticVoltagePointSet/>
+      <StaticVoltagePointSet/>
+    </StaticVoltagePointSets>
+    <FrequencyRangesOfInterest>
+      <FrequencyRange Max="-1" Min="-1"/>
+      <FrequencyRange Max="-1" Min="-1"/>
+    </FrequencyRangesOfInterest>
+    <RunDirectories>
+      <Item>Run0001</Item>
+      <Item>Run0002</Item>
+    </RunDirectories>
+    <Timesteps Compressed="false" Count="2" DataFormat="ASCII">-1 -1</Timesteps>
+    <MaximumFrequencies Compressed="false" Count="2" DataFormat="ASCII">10000000000 10000000000</MaximumFrequencies>
+    <Details>Simulation Summary%0A======================================================%0AEM engine:                 FEM%0AS-Parameters:              On%0A%0AParameter sweep: No%0A%0ABoundary conditions:%0A    Lower/Upper X:        Absorbing / Absorbing%0A    Lower/Upper Y:        Absorbing / Absorbing%0A    Lower/Upper Z:        PEC / Absorbing%0A%0AFrequency Plans:%0A    Adaptive sweep from 1e+08 Hz to 1e+10 Hz with maximal 9901 points%0A%0AMesh/Discretisation:%0A    Delta error: 0.02%0A    Minimum number of adaptive passes: 2%0A    Maximum number of adaptive passes: 15%0A    Refining at highest frequency of interest%0A    Consecutive passes of delta error required: 1%0A    Mesh refinement percentage: 25%0A    Target Mesh Size: Automatic%0A    Order of basis functions: 2%0A    [Advanced] Merging objects of same material%0A%0AAuto-select matrix solver selected%0A    tolerance       : 1e-05%0A    max %23iterations : 500%0A%0AFields are saved for: no frequencies.%0A%0A%0AList of parameters and their values:%0A    Name                            Formula                                       Value    %0A    --------------------------------------------------------------------------------------------%0A    xUpperBoundingBox               0.014 m + xUpperExtension                     0.017125 %0A    xLowerBoundingBox               0.0 m - xLowerExtension                       -0.003125%0A    toggleExtensionToBoundingBox    1                                             1        %0A    yUpperBoundingBox               0.0133034 m + yUpperExtension                 0.0164284%0A    maxFreq                         10 GHz                                        1e+10    %0A    zUpperBoundingBox               0.000545 m + zUpperExtension                  0.005545 %0A    mask_cond_Zmax                  0.545 mm                                      0.000545 %0A    xLowerExtension                 lateralExtension                              0.003125 %0A    lateralExtension                3.125 mm                                      0.003125 %0A    zLowerExtension                 0 mm                                          0        %0A    zUpperExtension                 verticalExtension                             0.005    %0A    yUpperExtension                 lateralExtension                              0.003125 %0A    stack_tech_layer_1_Z            0 mm                                          0        %0A    minFreq                         0.1 GHz                                       1e+08    %0A    xUpperExtension                 lateralExtension                              0.003125 %0A    stack_tech_layer_3_Z            0.5 mm                                        0.0005   %0A    yLowerBoundingBox               -0.0005000000000000004 m - yLowerExtension    -0.003625%0A    verticalExtension               5 mm                                          0.005    %0A    zLowerBoundingBox               0.0 m - zLowerExtension                       0        %0A    stack_tech_layer_5_Z            0.545 mm                                      0.000545 %0A    mask_cond_Zmin                  0.5 mm                                        0.0005   %0A    yLowerExtension                 lateralExtension                              0.003125 %0A%0A</Details>
+    <BoundingBox>
+      <Upper x="0.017125000000000001" z="0.0055450000000000013" y="0.016428399999999999"/>
+      <Lower x="-0.0031250000000000002" z="0" y="-0.0036250000000000006"/>
+    </BoundingBox>
+    <FemSaveFieldsFor value="0"/>
+    <CreationDateTime value="1651947646"/>
+    <SimulationGroup>000001</SimulationGroup>
+    <AgNewSimulationData>
+      <WrittenWith RevisionID="207" Version="EMPro 390.000 (64-bit)" BuildString="AAAAi3icJYq9CsJAEAb7PMUHNgrusV5+L6VgKVgI1lmTkIvGlfMsfHsPhSkGZs6TfyFxOJ6CIndsmBnrqiDxcWOybP/294gx6AIeCnG59FJDRwzLMyhJyj1ZtkxcETd0nfxNg48d9IFOZrpYyAe/D13Ef22Iy6TtzrWl22JluTZfGZgnDQ=="/>
+      <Engine value="1"/>
+      <HasAdaptiveFrequencyPlans value="true"/>
+      <FemEigenMode value="false"/>
+      <PortOnlyMode value="false"/>
+      <Reuse value="false"/>
+      <UseDistributed value="false"/>
+      <RunLocal value="true"/>
+      <NumberOfThreads value="0"/>
+      <NumberOfParallelFreq value="1"/>
+      <NumberOfNodes value="1"/>
+      <ResourceSettings NumberOfThreads="0" NumberOfNodes="1" UseDistributed="false" BatchMode="BatchLocal" RunLocal="true" NumberOfParallelFreq="1"/>
+      <HasTdafsSParameterData value="false"/>
+    </AgNewSimulationData>
+  </SimulationData>
+</SimulationData>

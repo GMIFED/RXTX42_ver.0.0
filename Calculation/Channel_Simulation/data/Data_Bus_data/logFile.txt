@@ -1,0 +1,37 @@
+
+hpeesofsim (*) 530.shp Aug 11 2020, MINT version 5
+    (64-bit windows built: Wed Aug 12, 2020 02:42:05 +0000)
+
+Warning detected by hpeesofsim during circuit set up.
+    L_fixture defined for the IBIS model 'TXS0108_IOA_OS_18'
+    in the file 'F:/Project/RXTX42_ver.0.0/Calculation/Channel_Simulation/data/txs0108e.ibs' is not currently
+    supported and will be ignored.
+Warning detected by hpeesofsim in topology check during circuit set up.
+    Number of nodes with only one device attached (topology corrected): 5
+
+ P:0.0 
+	 Running Tran:Tran1
+Warning detected by hpeesofsim in TDM Library during BatchSim Analysis `Tran1'.
+    The following probes are suppressing transient output:
+    
+    TRANS_TRANSLATOR
+    REC_CHIP
+    GEN
+
+Pt DC convergence is used.
+
+.
+
+Warning detected by hpeesofsim during TRAN analysis `Tran1'.
+    Maximum timestep reduced to half of shortest transmission line delay  1.000e-10.
+
+Warning detected by hpeesofsim in REC_CHIP during TRAN analysis `Tran1'.
+    Can not find Eye crossing points.
+    Please click the 'More...' button on the Eye Probe dialog box.
+    Then increase the numeric value in the 'Amplitude resolution' control
+    and/or the number of time points per UI using the 'Number of time points' control.
+    
+
+Resource usage:
+  Total stopwatch time     =     3.06 seconds.
+

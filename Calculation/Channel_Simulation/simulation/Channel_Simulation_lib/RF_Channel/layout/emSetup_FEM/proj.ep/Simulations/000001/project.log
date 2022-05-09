@@ -1,0 +1,276 @@
+
+CONFIGURATION VARIABLES WITH NON-DEFAULT VALUES:
+                                        Actual             Default
+  FEM_MESHER_SHOW_PROGRESS                 OFF                    
+  
+  
+FEM engine                : 390.000 2020-08-05
+FEM solver                : 1.3.0
+AFS                       : 3.1.1
+Machine                             : DESKTOP-6HRV24E
+Maximum number of threads           : Automatic
+Date                                : Sat May  7 21:20:50 2022
+Design                              : F:\Project\RXTX42_ver.0.0\Calculation\Channel_Simulation\simulation\Channel_Simulation_lib\RF_Channel\layout\emSetup_FEM\proj.ep\Simulations\000001\emds_dsn\design
+FEM Mesher: 2.4.7
+    
+Automatic initial target mesh size: 1.00e+01 mm
+   
+PROGRESS 33
+PROGRESS 35
+PROGRESS 36
+PROGRESS 37
+PROGRESS 38
+PROGRESS 40
+PROGRESS 41
+PROGRESS 42
+PROGRESS 43
+PROGRESS 45
+PROGRESS 46
+PROGRESS 47
+PROGRESS 48
+PROGRESS 49
+PROGRESS 51
+PROGRESS 52
+PROGRESS 53
+PROGRESS 54
+PROGRESS 56
+PROGRESS 57
+PROGRESS 58
+PROGRESS 59
+PROGRESS 61
+PROGRESS 62
+PROGRESS 63
+PROGRESS 64
+PROGRESS 66
+PROGRESS 77
+PROGRESS 88
+PROGRESS 90
+ 
+INITIAL MESH
+------------
+ 
+nbPoints     : 754
+nbTetrahedra : 3200
+  
+REFINING
+--------
+                     |              MESHING                |                           SOLVING
+ level    frequency  |  nbTetr  Elapsed time    CPU time   |  nbUnknowns   mem(GB)   Elapsed time    CPU time  Delta(S)             solver  nbIter     normRes            
+---------------------|-------------------------------------|--------------------------------------------------------------------------------------------------
+PROGRESS 26
+PROGRESS 27
+PROGRESS 28
+PROGRESS 32
+PROGRESS 33
+PROGRESS 34
+PROGRESS 37
+PROGRESS 38
+PROGRESS 39
+PROGRESS 42
+PROGRESS 43
+PROGRESS 44
+PROGRESS 47
+PROGRESS 50
+PROGRESS 52
+PROGRESS 54
+PROGRESS 57
+PROGRESS 60
+PROGRESS 64
+PROGRESS 67
+PROGRESS 68
+PROGRESS 70
+PROGRESS 72
+PROGRESS 73
+PROGRESS 74
+PROGRESS 75
+PROGRESS 90
+PROGRESS 100
+     1   10.000 GHz  |    3200    00:00:01.2  00:00:01.0   |       21468     0.131     00:00:01.1  00:00:02.9         /               Dm64                                
+Generated dataset
+Generated dataset
+PROGRESS 26
+PROGRESS 27
+PROGRESS 28
+PROGRESS 29
+PROGRESS 33
+PROGRESS 34
+PROGRESS 35
+PROGRESS 38
+PROGRESS 41
+PROGRESS 42
+PROGRESS 46
+PROGRESS 48
+PROGRESS 50
+PROGRESS 54
+PROGRESS 55
+PROGRESS 56
+PROGRESS 58
+PROGRESS 63
+PROGRESS 65
+PROGRESS 66
+PROGRESS 68
+PROGRESS 70
+PROGRESS 71
+PROGRESS 73
+PROGRESS 74
+PROGRESS 75
+PROGRESS 90
+PROGRESS 100
+     2   10.000 GHz  |    3775    00:00:00.3  00:00:00.2   |       25298     0.150     00:00:01.1  00:00:03.4    0.0572 [-&gt;0.0200]    Dm64                                
+Generated dataset
+Generated dataset
+PROGRESS 26
+PROGRESS 27
+PROGRESS 28
+PROGRESS 29
+PROGRESS 30
+PROGRESS 33
+PROGRESS 34
+PROGRESS 35
+PROGRESS 36
+PROGRESS 37
+PROGRESS 39
+PROGRESS 41
+PROGRESS 44
+PROGRESS 45
+PROGRESS 46
+PROGRESS 49
+PROGRESS 50
+PROGRESS 52
+PROGRESS 53
+PROGRESS 54
+PROGRESS 55
+PROGRESS 56
+PROGRESS 59
+PROGRESS 61
+PROGRESS 63
+PROGRESS 66
+PROGRESS 68
+PROGRESS 69
+PROGRESS 70
+PROGRESS 71
+PROGRESS 74
+PROGRESS 75
+PROGRESS 90
+PROGRESS 100
+     3   10.000 GHz  |    4425    00:00:00.2  00:00:00.2   |       29442     0.182     00:00:01.3  00:00:04.1    0.0828 [-&gt;0.0200]    Dm64                                
+Generated dataset
+Generated dataset
+PROGRESS 26
+PROGRESS 27
+PROGRESS 28
+PROGRESS 29
+PROGRESS 30
+PROGRESS 31
+PROGRESS 33
+PROGRESS 36
+PROGRESS 37
+PROGRESS 38
+PROGRESS 39
+PROGRESS 40
+PROGRESS 41
+PROGRESS 42
+PROGRESS 43
+PROGRESS 44
+PROGRESS 45
+PROGRESS 46
+PROGRESS 47
+PROGRESS 48
+PROGRESS 49
+PROGRESS 50
+PROGRESS 51
+PROGRESS 53
+PROGRESS 55
+PROGRESS 57
+PROGRESS 58
+PROGRESS 59
+PROGRESS 61
+PROGRESS 62
+PROGRESS 64
+PROGRESS 65
+PROGRESS 68
+PROGRESS 69
+PROGRESS 71
+PROGRESS 73
+PROGRESS 74
+PROGRESS 75
+PROGRESS 90
+PROGRESS 100
+     4   10.000 GHz  |    5280    00:00:00.3  00:00:00.3   |       34868     0.207     00:00:01.5  00:00:04.5    0.0605 [-&gt;0.0200]    Dm64                                
+Generated dataset
+Generated dataset
+PROGRESS 26
+PROGRESS 27
+PROGRESS 28
+PROGRESS 29
+PROGRESS 30
+PROGRESS 31
+PROGRESS 32
+PROGRESS 33
+PROGRESS 34
+PROGRESS 35
+PROGRESS 36
+PROGRESS 37
+PROGRESS 38
+PROGRESS 39
+PROGRESS 40
+PROGRESS 41
+PROGRESS 42
+PROGRESS 43
+PROGRESS 44
+PROGRESS 45
+PROGRESS 46
+PROGRESS 47
+PROGRESS 48
+PROGRESS 49
+PROGRESS 50
+PROGRESS 51
+PROGRESS 52
+PROGRESS 53
+PROGRESS 54
+PROGRESS 55
+PROGRESS 56
+PROGRESS 58
+PROGRESS 60
+PROGRESS 62
+PROGRESS 63
+PROGRESS 65
+PROGRESS 66
+PROGRESS 68
+PROGRESS 70
+PROGRESS 71
+PROGRESS 72
+PROGRESS 74
+PROGRESS 75
+PROGRESS 90
+PROGRESS 100
+     5   10.000 GHz  |    6238    00:00:00.3  00:00:00.3   |       40994     0.246     00:00:01.9  00:00:05.7    0.0188 [-&gt;0.0200]    Dm64                                
+Generated dataset
+Generated dataset
+ 
+COMPUTING SOLUTION
+------------------
+ 
+sample    frequency  |  nbUnknowns    mem(GB)  Elapsed time     CPU time  solver  nbIter     normRes
+---------------------|------------------------------------------------------------------------------
+     1   10.000 GHz  |       34868      0.207    00:00:01.5   00:00:04.5   reuse                    
+     2  100.000 MHz  |       34868      0.209    00:00:02.5   00:00:04.5    Dm64                    
+     3    3.400 GHz  |       34868      0.209    00:00:00.6   00:00:02.4    Dm64                    
+     4    6.700 GHz  |       34868      0.209    00:00:00.6   00:00:02.4    Dm64                    
+     5    1.750 GHz  |       34868      0.209    00:00:01.0   00:00:02.3    Dm64                    
+     6    2.575 GHz  |       34868      0.210    00:00:01.1   00:00:02.5    Dm64                    
+     7    5.050 GHz  |       34868      0.210    00:00:01.0   00:00:02.2    Dm64                    
+     8    8.350 GHz  |       34868      0.210    00:00:01.0   00:00:02.2    Dm64                    
+     9    9.175 GHz  |       34868      0.210    00:00:01.0   00:00:02.4    Dm64                    
+    10    5.875 GHz  |       34868      0.210    00:00:01.0   00:00:02.5    Dm64                    
+    11    9.588 GHz  |       34868      0.210    00:00:01.0   00:00:02.3    Dm64                    
+    12    5.463 GHz  |       34868      0.210    00:00:01.0   00:00:02.7    Dm64                    
+------------------------------------------------
+DISTRIBUTION SUMMARY:
+master 0    on DESKTOP-6HRV24E 
+solver 1    on DESKTOP-6HRV24E:  #freq:11    
+------------------------------------------------
+------------------------------------------------
+  Total Elapsed Time = 0:00:35
+------------------------------------------------
+Simulation results can be reused

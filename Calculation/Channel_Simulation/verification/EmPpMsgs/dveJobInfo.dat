@@ -1,0 +1,5 @@
+jobName=EmPpMsgs
+jobType=emprep
+designName=Channel_Simulation_lib:RF_Channel:layout
+ruleFilePath=
+addInfo="EM preprocessor messages displayed as DRC errors"

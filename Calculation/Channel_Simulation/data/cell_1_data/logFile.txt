@@ -1,0 +1,47 @@
+
+hpeesofsim (*) 530.shp Aug 11 2020, MINT version 5
+    (64-bit windows built: Wed Aug 12, 2020 02:42:05 +0000)
+
+Warning detected by hpeesofsim during circuit set up.
+    L_fixture defined for the IBIS model 'TXS0108_IOA_OS_18'
+    in the file 'F:/Project/RXTX42_ver.0.0/Calculation/Channel_Simulation/data/txs0108e.ibs' is not currently
+    supported and will be ignored.
+Warning detected by hpeesofsim in topology check during circuit set up.
+    Number of nodes with only one device attached (topology corrected): 3
+
+Warning detected by hpeesofsim in TDM Library during circuit set up `Tran1'.
+    The following probes are suppressing transient output:
+    
+    GEN
+    REC_CHIP
+    TRANS_TRANSLATOR
+
+Pt DC convergence is used.
+
+.
+
+
+Warning detected by hpeesofsim in TRANS_CHIP during TRAN analysis `Tran1'.
+    Eye width measurement fails.
+    Please click the 'More...' button on the Eye Probe dialog box.
+    Then increase the numeric value in the 'Amplitude resolution' control
+    and/or the number of time points per UI using the 'Number of time points' control.
+    
+Warning detected by hpeesofsim in GEN during TRAN analysis `Tran1'.
+    Can not find Eye crossing points.
+    Please click the 'More...' button on the Eye Probe dialog box.
+    Then increase the numeric value in the 'Amplitude resolution' control
+    and/or the number of time points per UI using the 'Number of time points' control.
+    
+Warning detected by hpeesofsim during circuit set up.
+    `Gamma_Probe1': Unable to resolve variable(s) or functions(s) in expression ` Z_sens=V_sens/I_sens.i'
+        I_sens.i
+        V_sens
+Warning detected by hpeesofsim during circuit set up.
+    `Gamma_Probe1': Unable to resolve variable(s) or functions(s) in expression `Gamma_sens=(Z_sens-conj(Zref))/(Z_sens+Zref)'
+        I_sens.i
+        V_sens
+
+Resource usage:
+  Total stopwatch time     =    10.09 seconds.
+

@@ -1,0 +1,28 @@
+SIMULATION SUMMARY
+------------------
+EMDS version             : unknown
+Operating system         : win32_64
+Machine                  : DESKTOP-6HRV24E
+Date                     : Sat May  7 21:21:22 2022
+
+Total time               :      33.53 sec
+
+Adaptive phase: 
+  refinement steps       : 1
+  time                   :      13.30 sec  ( 39.67 %)
+
+Solve phase:
+  time                   :      13.15 sec  ( 39.23 %)
+
+Timing per subtask:
+  setup                  :       0.01 sec  (  0.04 %)
+  mesh                   :       2.10 sec  (  6.26 %)
+  adapt                  :       4.09 sec  ( 12.20 %)
+  mesh2d                 :       0.00 sec  (  0.00 %)
+  solve2d                :       0.00 sec  (  0.00 %)
+  solve3d                :      24.27 sec  ( 72.38 %)
+  fileIO                 :       0.00 sec  (  0.00 %)
+  farfield               :       0.00 sec  (  0.00 %)
+  fem_vmesh              :       0.00 sec  (  0.00 %)
+  fem_vmesh_2            :       0.00 sec  (  0.00 %)
+  mesh_ops               :       0.00 sec  (  0.00 %)

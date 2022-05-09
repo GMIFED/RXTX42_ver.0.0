@@ -1,0 +1,1230 @@
+Loading Data from F:\Project\RXTX42_ver.0.0\Calculation\Channel_Simulation\simulation\Channel_Simulation_lib\RF_Channel\layout\emSetup_FEM\proj.ep\Simulations\000001\emds_dsn\design\design.sat
+Load ACIS file
+  acis version = ACIS 28.0 NT
+  product = Keysight Technologies
+  errmsg = success
+  entlist.count() = 5
+  Unit is  = 1
+removing transformation
+BODY 0 with transformation: scaling=1, translation=(7.0000000000000009, 6.4016999999999999, 0)
+BODY 1 with transformation: scaling=1, translation=(0, 0, 0)
+  Body transf not removed as not necessary  1
+BODY 2 with transformation: scaling=1, translation=(0, 0, 0.5)
+BODY 3 with transformation: scaling=1, translation=(0, 0, 0.5)
+BODY 4 with transformation: scaling=1, translation=(7, 6.4016999999999999, 2.7725000000000009)
+separating bodies
+Entity 0,name=Simulation box, bb=(-3.1249999999999991,-3.625,0)->(17.125,16.4284,5.5450000000000008)
+Entity 1,name=FR4_RF, bb=(-3.125,-3.6250000000000004,0)->(17.125,16.4284,0.5)
+Entity 2,name=, bb=(0,-0.5,0.5)->(14,0.5,0.54500000000000004)
+Entity 3,name=, bb=(8,7.5,0.5)->(9.3033999999999999,13.3034,0.54500000000000004)
+Entity 4,name=*unknown*, bb=(-3.125,-3.625,0)->(17.125,16.4284,5.5450000000000017)
+Creating Topology
+Analyzing Topology
+Merged Objects with same material: merged 5 objects into 4 objects.
+ Current Process: Cleaning topologyObjects Combined
+Creating Mesh
+Restricting h (face curvature)
+Restricting h (face curvature)
+
+Line meshing completed:
+Mesh overview:
+  Vertices: 252
+  Edges:    272
+  Surfaces: 0
+  Volumes:  0
+
+Smaller local tree being used
+
+999/216/176 map/can/use rule Free Triangle (1)
+0/7/0 map/can/use rule Free Triangle (5)
+0/0/0 map/can/use rule Free Triangle (10)
+0/0/0 map/can/use rule Free Triangle (20)
+430/340/53 map/can/use rule Right 60 (1)
+363/297/64 map/can/use rule Left 60 (1)
+331/104/8 map/can/use rule Right 120 (1)
+410/127/11 map/can/use rule Left 120 (1)
+127/43/1 map/can/use rule Left Right 120 (1)
+24/24/2 map/can/use rule Fill Triangle
+6732/562/16 map/can/use rule Vis A Vis (1)
+1095/40/0 map/can/use rule 2 h Vis A Vis (1)
+
+
+1999/286/229 map/can/use rule Free Triangle (1)
+0/12/1 map/can/use rule Free Triangle (5)
+0/0/0 map/can/use rule Free Triangle (10)
+0/0/0 map/can/use rule Free Triangle (20)
+1077/658/94 map/can/use rule Right 60 (1)
+921/579/114 map/can/use rule Left 60 (1)
+728/154/14 map/can/use rule Right 120 (1)
+845/146/15 map/can/use rule Left 120 (1)
+275/64/6 map/can/use rule Left Right 120 (1)
+179/179/30 map/can/use rule Fill Triangle
+13447/769/50 map/can/use rule Vis A Vis (1)
+2802/49/0 map/can/use rule 2 h Vis A Vis (1)
+
+
+999/187/83 map/can/use rule Free Triangle (1)
+0/26/4 map/can/use rule Free Triangle (5)
+0/0/0 map/can/use rule Free Triangle (10)
+0/0/0 map/can/use rule Free Triangle (20)
+468/220/39 map/can/use rule Right 60 (1)
+448/253/31 map/can/use rule Left 60 (1)
+381/34/2 map/can/use rule Right 120 (1)
+408/43/4 map/can/use rule Left 120 (1)
+132/26/1 map/can/use rule Left Right 120 (1)
+113/113/17 map/can/use rule Fill Triangle
+2259/190/21 map/can/use rule Vis A Vis (1)
+689/8/0 map/can/use rule 2 h Vis A Vis (1)
+
+
+Surface meshing completed:
+Mesh overview:
+  Vertices: 775
+  Edges:    272
+  Surfaces: 1658
+  Volumes:  0
+
+Surface optimization:
+  All faces planar: 1
+  All edges straight: 1
+totalActionsTaken = 3174
+
+2D optimization completed:
+Mesh overview:
+  Vertices: 775
+  Edges:    272
+  Surfaces: 1658
+  Volumes:  0
+
+ Optimized Face 26 / 26
+
+Surface meshing completed:
+Mesh overview:
+  Vertices: 599
+  Edges:    272
+  Surfaces: 1306
+  Volumes:  0
+
+Starting volume meshing:
+Mesh overview:
+  Vertices: 599
+  Edges:    272
+  Surfaces: 1306
+  Volumes:  0
+blockfill local h
+rel filldist = 0.10000000000000001
+
+
+
+Points:           724
+Volume Elements:  3128
+21 low quality volume elements
+
+Volume elements in qualityclasses:
+   0 - 0.05: 249
+0.05 -  0.1: 44
+ 0.1 - 0.15: 89
+0.15 -  0.2: 95
+ 0.2 - 0.25: 142
+0.25 -  0.3: 147
+ 0.3 - 0.35: 203
+0.35 -  0.4: 247
+ 0.4 - 0.45: 272
+0.45 -  0.5: 286
+ 0.5 - 0.55: 249
+0.55 -  0.6: 248
+ 0.6 - 0.65: 231
+0.65 -  0.7: 186
+ 0.7 - 0.75: 165
+0.75 -  0.8: 139
+ 0.8 - 0.85: 66
+0.85 -  0.9: 48
+ 0.9 - 0.95: 17
+0.95 -    1: 5
+total error: 2.1e+11
+free: 1944, fixed: 1184
+
+Start SwapImprove
+free: 619, fixed: 2399
+
+Start SwapImprove
+
+
+Points:           724
+Volume Elements:  3006
+21 low quality volume elements
+
+Volume elements in qualityclasses:
+   0 - 0.05: 246
+0.05 -  0.1: 31
+ 0.1 - 0.15: 65
+0.15 -  0.2: 68
+ 0.2 - 0.25: 117
+0.25 -  0.3: 158
+ 0.3 - 0.35: 200
+0.35 -  0.4: 240
+ 0.4 - 0.45: 271
+0.45 -  0.5: 265
+ 0.5 - 0.55: 247
+0.55 -  0.6: 252
+ 0.6 - 0.65: 229
+0.65 -  0.7: 183
+ 0.7 - 0.75: 144
+0.75 -  0.8: 140
+ 0.8 - 0.85: 73
+0.85 -  0.9: 54
+ 0.9 - 0.95: 18
+0.95 -    1: 5
+total error: 2.1e+11
+vol = -1.1e-06 h = 6.1
+   0 times used rule Free Tetrahedron
+  90 times used rule Tetrahedron 60
+  69 times used rule Tetrahedron 60 with edge(1)
+   0 times used rule Tetrahedron Vis a Vis Point (1)
+  14 times used rule Tetrahedron Vis a Vis Point with edge(1)
+  32 times used rule Tetrahedron Vis a Vis Point with 2 edges (1)
+  48 times used rule Tetrahedron Vis a Vis Point with 3 edges (1)
+   0 times used rule Tetrahedron Vis a Vis Triangle (1)
+   0 times used rule Octaeder 1
+   0 times used rule Octaeder 2
+   0 times used rule Octaeder 2a
+   0 times used rule Pyramid 1
+  15 times used rule Tetrahedron 2 times 60
+   4 times used rule Fill Tetrahedron (1)
+  10 times used rule Tetrahedron 120 (1)
+   0 times used rule Tetrahedron 2 times 120 (1)
+  10 times used rule four Tetrahedron non convex (4)
+   0 times used rule five Tetrahedron non convex (4)
+  72 times used rule four Tetrahedron non convex (6)
+   0 times used rule four Tetrahedron non convex (6)
+   0 times used rule three Tetrahedron non convex (4)
+   0 times used rule three Tetrahedron non convex (6)
+   0 times used rule four Tetrahedron non convex (6)
+   0 times used rule Tetrahedron 2 in 60 (12)
+   0 times used rule Tetrahedron 120: but more than 180 (13)
+   0 times used rule Free Tetrahedron (14)
+   0 times used rule Free Tetrahedron (15)
+free: 270, fixed: 1343
+Improve Mesh
+no success with linesearch
+no success with linesearch
+no success with linesearch
+no success with linesearch
+no success with linesearch
+no success with linesearch
+no success with linesearch
+no success with linesearch
+no success with linesearch
+no success with linesearch
+no success with linesearch
+no success with linesearch
+no success with linesearch
+no success with linesearch
+no success with linesearch
+no success with linesearch
+no success with linesearch
+no success with linesearch
+no success with linesearch
+no success with linesearch
+no success with linesearch
+no success with linesearch
+no success with linesearch
+no success with linesearch
+no success with linesearch
+no success with linesearch
+no success with linesearch
+no success with linesearch
+no success with linesearch
+no success with linesearch
+
+free: 270, fixed: 1343
+Start CombineImprove
+low volume of tet 1.4456029e-19
+low volume of tet 0
+low volume of tet 5.0596101e-19
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+48 elements combined
+CombineImprove done
+free: 82, fixed: 1339
+Improve Mesh
+
+free: 82, fixed: 1339
+
+Start SwapImprove
+free: 81, fixed: 1348
+
+Start SwapImprove2
+Total badness = 6429.1789
+Total badness = 6430.758
+swapimprove2 done
+free: 82, fixed: 1348
+Improve Mesh
+
+free: 82, fixed: 1348
+Start CombineImprove
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 4.5175091e-21
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 2.8912058e-19
+illegal tet 1234
+illegal tet 1313
+low volume of tet 0
+illegal tet 1352
+illegal tet 1354
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+4 elements combined
+CombineImprove done
+free: 70, fixed: 1334
+Improve Mesh
+
+free: 70, fixed: 1334
+
+Start SwapImprove
+free: 70, fixed: 1334
+
+Start SwapImprove2
+Total badness = 4333.2934
+Total badness = 4334.4644
+swapimprove2 done
+free: 71, fixed: 1334
+Improve Mesh
+
+free: 71, fixed: 1334
+Start CombineImprove
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 1.2987839e-20
+1 elements combined
+CombineImprove done
+free: 66, fixed: 1334
+Improve Mesh
+
+free: 66, fixed: 1334
+
+Start SwapImprove
+free: 66, fixed: 1333
+
+Start SwapImprove2
+Total badness = 4161.7102
+Total badness = 4163.0792
+swapimprove2 done
+free: 66, fixed: 1334
+Improve Mesh
+
+free: 66, fixed: 1334
+Start CombineImprove
+0 elements combined
+CombineImprove done
+free: 66, fixed: 1334
+Improve Mesh
+
+   0 times used rule Free Tetrahedron
+  24 times used rule Tetrahedron 60
+  12 times used rule Tetrahedron 60 with edge(1)
+   0 times used rule Tetrahedron Vis a Vis Point (1)
+   3 times used rule Tetrahedron Vis a Vis Point with edge(1)
+   6 times used rule Tetrahedron Vis a Vis Point with 2 edges (1)
+  17 times used rule Tetrahedron Vis a Vis Point with 3 edges (1)
+   0 times used rule Tetrahedron Vis a Vis Triangle (1)
+   0 times used rule Octaeder 1
+   0 times used rule Octaeder 2
+   0 times used rule Octaeder 2a
+   0 times used rule Pyramid 1
+   3 times used rule Tetrahedron 2 times 60
+   0 times used rule Fill Tetrahedron (1)
+   2 times used rule Tetrahedron 120 (1)
+   0 times used rule Tetrahedron 2 times 120 (1)
+   0 times used rule four Tetrahedron non convex (4)
+   0 times used rule five Tetrahedron non convex (4)
+   0 times used rule four Tetrahedron non convex (6)
+   0 times used rule four Tetrahedron non convex (6)
+   0 times used rule three Tetrahedron non convex (4)
+   0 times used rule three Tetrahedron non convex (6)
+   0 times used rule four Tetrahedron non convex (6)
+   0 times used rule Tetrahedron 2 in 60 (12)
+   0 times used rule Tetrahedron 120: but more than 180 (13)
+   0 times used rule Free Tetrahedron (14)
+   0 times used rule Free Tetrahedron (15)
+blockfill local h
+rel filldist = 0.1
+
+
+
+Points:           855
+Volume Elements:  3602
+5 low quality volume elements
+
+Volume elements in qualityclasses:
+   0 - 0.05: 287
+0.05 -  0.1: 130
+ 0.1 - 0.15: 178
+0.15 -  0.2: 210
+ 0.2 - 0.25: 172
+0.25 -  0.3: 274
+ 0.3 - 0.35: 240
+0.35 -  0.4: 203
+ 0.4 - 0.45: 220
+0.45 -  0.5: 279
+ 0.5 - 0.55: 241
+0.55 -  0.6: 217
+ 0.6 - 0.65: 237
+0.65 -  0.7: 218
+ 0.7 - 0.75: 130
+0.75 -  0.8: 142
+ 0.8 - 0.85: 102
+0.85 -  0.9: 79
+ 0.9 - 0.95: 36
+0.95 -    1: 7
+total error: 5e+10
+free: 2013, fixed: 1589
+
+Start SwapImprove
+free: 996, fixed: 2538
+
+Start SwapImprove
+
+
+Points:           855
+Volume Elements:  3526
+4 low quality volume elements
+
+Volume elements in qualityclasses:
+   0 - 0.05: 316
+0.05 -  0.1: 123
+ 0.1 - 0.15: 172
+0.15 -  0.2: 178
+ 0.2 - 0.25: 162
+0.25 -  0.3: 262
+ 0.3 - 0.35: 230
+0.35 -  0.4: 194
+ 0.4 - 0.45: 218
+0.45 -  0.5: 285
+ 0.5 - 0.55: 239
+0.55 -  0.6: 213
+ 0.6 - 0.65: 239
+0.65 -  0.7: 209
+ 0.7 - 0.75: 131
+0.75 -  0.8: 139
+ 0.8 - 0.85: 101
+0.85 -  0.9: 78
+ 0.9 - 0.95: 31
+0.95 -    1: 6
+total error: 4e+10
+   9 times used rule Free Tetrahedron
+ 178 times used rule Tetrahedron 60
+ 107 times used rule Tetrahedron 60 with edge(1)
+   0 times used rule Tetrahedron Vis a Vis Point (1)
+  35 times used rule Tetrahedron Vis a Vis Point with edge(1)
+  49 times used rule Tetrahedron Vis a Vis Point with 2 edges (1)
+ 130 times used rule Tetrahedron Vis a Vis Point with 3 edges (1)
+   0 times used rule Tetrahedron Vis a Vis Triangle (1)
+   0 times used rule Octaeder 1
+   0 times used rule Octaeder 2
+   0 times used rule Octaeder 2a
+   0 times used rule Pyramid 1
+  21 times used rule Tetrahedron 2 times 60
+   8 times used rule Fill Tetrahedron (1)
+  20 times used rule Tetrahedron 120 (1)
+   0 times used rule Tetrahedron 2 times 120 (1)
+  10 times used rule four Tetrahedron non convex (4)
+   0 times used rule five Tetrahedron non convex (4)
+   0 times used rule four Tetrahedron non convex (6)
+   0 times used rule four Tetrahedron non convex (6)
+   0 times used rule three Tetrahedron non convex (4)
+   0 times used rule three Tetrahedron non convex (6)
+   0 times used rule four Tetrahedron non convex (6)
+   0 times used rule Tetrahedron 2 in 60 (12)
+   0 times used rule Tetrahedron 120: but more than 180 (13)
+   0 times used rule Free Tetrahedron (14)
+   0 times used rule Free Tetrahedron (15)
+Vol Meshing added
+  3087 tetrahedra through Delaunay tetrahedralization
+  765 tetrahedra through advancing front tetrahedralization
+  3 passes on advancing front tetrahedralization
+
+
+Points:           818
+Volume Elements:  3573
+0 low quality volume elements
+
+Volume elements in qualityclasses:
+   0 - 0.05: 67
+0.05 -  0.1: 81
+ 0.1 - 0.15: 91
+0.15 -  0.2: 135
+ 0.2 - 0.25: 172
+0.25 -  0.3: 246
+ 0.3 - 0.35: 238
+0.35 -  0.4: 250
+ 0.4 - 0.45: 271
+0.45 -  0.5: 333
+ 0.5 - 0.55: 294
+0.55 -  0.6: 288
+ 0.6 - 0.65: 271
+0.65 -  0.7: 252
+ 0.7 - 0.75: 174
+0.75 -  0.8: 166
+ 0.8 - 0.85: 119
+0.85 -  0.9: 76
+ 0.9 - 0.95: 44
+0.95 -    1: 5
+total error: 1.6e+04
+
+Volume meshing completed:
+Mesh overview:
+  Vertices: 818
+  Edges:    272
+  Surfaces: 1306
+  Volumes:  3573
+Start CombineImprove
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+illegal tet 1335
+illegal tet 1336
+illegal tet 1339
+low volume of tet 2.3e-18
+illegal tet 1361
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 2.9e-19
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 1.4e-19
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 3.1e-19
+low volume of tet 0
+low volume of tet 0
+low volume of tet 1.2e-18
+low volume of tet 0
+low volume of tet 0
+low volume of tet 2.9e-19
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 3.6e-20
+low volume of tet 1.4e-19
+low volume of tet 0
+low volume of tet 1.8e-20
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+illegal tet 2480
+illegal tet 2515
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 2.9e-19
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 2.7e-20
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 1.8e-20
+illegal tet 2545
+illegal tet 2869
+low volume of tet 0
+illegal tet 3083
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 4.5e-21
+low volume of tet 0
+illegal tet 1584
+illegal tet 2054
+low volume of tet 0
+illegal tet 2777
+low volume of tet 0
+illegal tet 2905
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 3.6e-20
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 2.3e-18
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 9.3e-18
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 7.2e-20
+low volume of tet 0
+low volume of tet 0
+low volume of tet 1.8e-20
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 9.3e-18
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 2.3e-18
+low volume of tet 0
+low volume of tet 7.4e-17
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 1.8e-20
+low volume of tet 0
+low volume of tet 0
+low volume of tet 3.6e-20
+low volume of tet 4.5e-21
+low volume of tet 0
+low volume of tet 0
+low volume of tet 7.2e-20
+low volume of tet 5.8e-19
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 7.4e-16
+low volume of tet 0
+low volume of tet 0
+low volume of tet 3.7e-17
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 1.4e-19
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 1.2e-18
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 1.8e-20
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 1.8e-20
+low volume of tet 0
+illegal tet 3272
+illegal tet 3275
+low volume of tet 0
+illegal tet 3417
+illegal tet 3465
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+illegal tet 3426
+illegal tet 3481
+illegal tet 3289
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+illegal tet 3479
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+illegal tet 3316
+low volume of tet 0
+illegal tet 3431
+low volume of tet 9e-21
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 1.8e-20
+low volume of tet 9e-21
+low volume of tet 0
+low volume of tet 0
+illegal tet 3346
+low volume of tet 0
+illegal tet 3493
+low volume of tet 0
+illegal tet 3372
+low volume of tet 2.9e-19
+illegal tet 3446
+low volume of tet 2.9e-19
+illegal tet 3485
+low volume of tet 7.2e-20
+low volume of tet 1.4e-19
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 4.3e-19
+low volume of tet 0
+low volume of tet 5.8e-19
+low volume of tet 0
+low volume of tet 5.9e-16
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+illegal tet 3513
+low volume of tet 2.3e-18
+illegal tet 3531
+low volume of tet 0
+illegal tet 3520
+low volume of tet 0
+low volume of tet 0
+illegal tet 3523
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 2.3e-18
+low volume of tet 1.4e-18
+illegal tet 3570
+illegal tet 3571
+61 elements combined
+CombineImprove done
+Improve Mesh
+Total badness = 1.2e+04
+
+Total badness = 11065.084
+start SplitImprove
+Total badness = 11065.084
+Splitt - Improve done
+Total badness = 11058.535
+Improve Mesh
+Total badness = 11058.535
+
+Total badness = 10961.28
+Improve Mesh
+Total badness = 10961.28
+
+Total badness = 10942.875
+
+
+Points:           758
+Volume Elements:  3232
+0 low quality volume elements
+
+Volume elements in qualityclasses:
+   0 - 0.05: 32
+0.05 -  0.1: 40
+ 0.1 - 0.15: 60
+0.15 -  0.2: 94
+ 0.2 - 0.25: 137
+0.25 -  0.3: 188
+ 0.3 - 0.35: 206
+0.35 -  0.4: 236
+ 0.4 - 0.45: 261
+0.45 -  0.5: 287
+ 0.5 - 0.55: 286
+0.55 -  0.6: 292
+ 0.6 - 0.65: 265
+0.65 -  0.7: 262
+ 0.7 - 0.75: 205
+0.75 -  0.8: 167
+ 0.8 - 0.85: 107
+0.85 -  0.9: 70
+ 0.9 - 0.95: 31
+0.95 -    1: 6
+total error: 9.1e+03
+Start CombineImprove
+low volume of tet 0
+low volume of tet 2.9e-19
+low volume of tet 2.9e-19
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 5.8e-19
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 8.7e-19
+low volume of tet 2.9e-19
+illegal tet 1337
+illegal tet 1338
+illegal tet 1354
+illegal tet 1355
+low volume of tet 0
+low volume of tet 0
+illegal tet 1319
+illegal tet 1343
+low volume of tet 0
+illegal tet 1356
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 1e-17
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 2.5e-18
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+low volume of tet 2.3e-18
+low volume of tet 0
+low volume of tet 0
+low volume of tet 0
+9 elements combined
+CombineImprove done
+Improve Mesh
+Total badness = 1.1e+04
+
+Total badness = 10706.623
+start SplitImprove
+Total badness = 10706.623
+Splitt - Improve done
+Total badness = 10536.871
+Improve Mesh
+Total badness = 10536.871
+
+Total badness = 10543.101
+Improve Mesh
+Total badness = 10543.101
+
+Total badness = 10545.191
+
+
+Points:           752
+Volume Elements:  3192
+0 low quality volume elements
+
+Volume elements in qualityclasses:
+   0 - 0.05: 28
+0.05 -  0.1: 41
+ 0.1 - 0.15: 61
+0.15 -  0.2: 85
+ 0.2 - 0.25: 132
+0.25 -  0.3: 193
+ 0.3 - 0.35: 196
+0.35 -  0.4: 235
+ 0.4 - 0.45: 262
+0.45 -  0.5: 271
+ 0.5 - 0.55: 283
+0.55 -  0.6: 296
+ 0.6 - 0.65: 287
+0.65 -  0.7: 247
+ 0.7 - 0.75: 203
+0.75 -  0.8: 160
+ 0.8 - 0.85: 112
+0.85 -  0.9: 62
+ 0.9 - 0.95: 33
+0.95 -    1: 5
+total error: 8.8e+03
+Start CombineImprove
+0 elements combined
+CombineImprove done
+Improve Mesh
+Total badness = 1.1e+04
+
+Total badness = 10546.097
+start SplitImprove
+Total badness = 10546.097
+Splitt - Improve done
+Total badness = 10441.22
+Improve Mesh
+Total badness = 10441.22
+
+Total badness = 10437.772
+Improve Mesh
+Total badness = 10437.772
+
+Total badness = 10437.079
+
+
+Points:           754
+Volume Elements:  3200
+0 low quality volume elements
+
+Volume elements in qualityclasses:
+   0 - 0.05: 26
+0.05 -  0.1: 40
+ 0.1 - 0.15: 62
+0.15 -  0.2: 85
+ 0.2 - 0.25: 137
+0.25 -  0.3: 194
+ 0.3 - 0.35: 200
+0.35 -  0.4: 235
+ 0.4 - 0.45: 262
+0.45 -  0.5: 270
+ 0.5 - 0.55: 288
+0.55 -  0.6: 298
+ 0.6 - 0.65: 278
+0.65 -  0.7: 247
+ 0.7 - 0.75: 205
+0.75 -  0.8: 163
+ 0.8 - 0.85: 106
+0.85 -  0.9: 63
+ 0.9 - 0.95: 36
+0.95 -    1: 5
+total error: 8.7e+03
+
+Volume optimization completed:
+Mesh overview:
+  Vertices: 754
+  Edges:    272
+  Surfaces: 1306
+  Volumes:  3200
